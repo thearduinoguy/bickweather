@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      background-color: yellow;
+    }
+    h1 {
+      font-size: 4em;
+      text-align: center;
+    }
+    #current-weather, #future-forecast div {
+      font-size: 2em;
+      text-align: center;
+      padding: 20px;
+    }
+    #future-forecast {
+      display: flex;
+      justify-content: space-around;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+    }
+    #top-icon {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bickenhall Mansions Weather</h1>
+  <div id="current-weather"></div>
+  <div id="future-forecast"></div>
+  <script src="weather.js"></script>
+</body>
+</html>
